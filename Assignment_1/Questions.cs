@@ -77,8 +77,8 @@ namespace Assignment_1
                         {//clearing the console 
                             Console.Clear();
                             //presenting a menu to the user
-                            Console.WriteLine($"{star}\n[2] View Double Array\n" +
-                                              "[1] View Int Array\n" +
+                            Console.WriteLine($"{star}\n[2] View decimal Array\n" +
+                                              "[1] View whole number Array\n" +
                                               "[0] back");
                             //capturing the users response and lowering it 
                             string strA = Console.ReadLine().ToLower();
